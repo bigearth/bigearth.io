@@ -30,12 +30,6 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# Webservice calls
-gem 'httparty'
-
-# Digital Ocean API V2
-gem 'droplet_kit'
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -63,16 +57,7 @@ group :development do
 end
 gem 'newrelic_rpm'
 
-gem 'mongoid'
-gem 'devise'
-gem 'sendgrid'
-gem 'devise-authy'
-gem 'resque', require: 'resque/server'
-# gem 'resque-heroku'
-gem 'resque-scheduler'
 gem 'simplecov', require: false, group: :test
 
 gem 'rails_serve_static_assets'
 gem 'rails_stdout_logging'
-gem 'octokit'
-gem 'cloudflare'
